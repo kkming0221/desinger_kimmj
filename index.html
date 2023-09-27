@@ -1,0 +1,497 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko">
+	<head>
+		<title>웹디자이너 김민지 포트폴리오</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="keywords" content="webdesigner, 웹디자이너, portfolio, 포트폴리오">
+		<meta name="description" content="더 넓고 트렌디한 시각을 가진 디자이너가 되기 위한 새로운 시작을 준비하고 있습니다.">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="웹디자이너 김민지 포트폴리오">
+		<meta property="og:description" content="더 넓고 트렌디한 시각을 가진 디자이너가 되기 위한 새로운 시작을 준비하고 있습니다.">
+		<meta property="og:image" content="/images/common/logo_og.jpg">
+
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+		<script src="/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+		<script src="/js/gsap.min.js"></script>
+		<script src="/js/ScrollTrigger.min.js"></script>
+		<script src="/js/ui.js"></script>
+
+		<script>
+			$(function () {
+				// #visual
+				gsap.from(".slogan .top", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#visual",
+						toggleActions: "play none none none",
+						start: "top 100%",
+				}, duration: 1});
+				
+				gsap.from(".slogan .top h2", {
+					opacity: 0,
+					delay: 0.5,
+					scrollTrigger: {
+						trigger: "#visual",
+						toggleActions: "play none none none",
+						start: "top 100%",
+				}, y: -100, duration: 1.2});
+
+				gsap.from(".slogan .bot", {
+					opacity: 0,
+					delay: 0.5,
+					scrollTrigger: {
+						trigger: "#visual",
+						toggleActions: "play none none none",
+						start: "top 100%",
+				}, y: 100, duration: 1.2});
+
+				// #section01
+				gsap.from("#section01 .img_box", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section01",
+						toggleActions: "play none none none",
+						start: "top center",
+				}, x: -200, duration: 1.2});
+
+				gsap.from("#section01 .txt_box", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section01",
+						toggleActions: "play none none none",
+						start: "top center",
+				}, x: 200, duration: 1.2});
+
+				// #section02
+				gsap.from("#section02 .top", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top center",
+				}, y:-100, duration: 1});
+
+				gsap.from("#section02 .bot .bar1", {
+					opacity: 0,
+					delay: 0.2,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top 40%",
+						toggleClass: {targets: ".bar1", className: "pts"}
+				}, y:100 , duration: 1});
+
+				gsap.from("#section02 .bot .bar2", {
+					opacity: 0,
+					delay: 0.4,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top 40%",
+						toggleClass: {targets: ".bar2", className: "illu"}
+				}, y:100 , duration: 1});
+
+				gsap.from("#section02 .bot .bar3", {
+					opacity: 0,
+					delay: 0.6,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top 40%",
+						toggleClass: {targets: ".bar3", className: "fig"}
+				}, y:100 , duration: 1});
+
+				gsap.from("#section02 .bot .bar4", {
+					opacity: 0,
+					delay: 0.8,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top 40%",
+						toggleClass: {targets: ".bar4", className: "hc"}
+				}, y:100 , duration: 1});
+
+				gsap.from("#section02 .bot .bar5", {
+					opacity: 0,
+					delay: 1,
+					scrollTrigger: {
+						trigger: "#section02",
+						toggleActions: "play none none none",
+						start: "top 40%",
+						toggleClass: {targets: ".bar5", className: "what"}
+				}, y:100 , duration: 1});
+
+				// #section03
+				gsap.from("#section03 h2.sec_tt", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section03",
+						toggleActions: "play none none none",
+						start: "top center",
+				}, y: -200, duration: 1});
+
+				gsap.from("#section03 .work_list", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section03",
+						toggleActions: "play none none none",
+						start: "top center",
+				}, y: 200, duration: 1});
+				
+				// #section04
+				gsap.from(".contact .top", {
+					opacity: 0,
+					scrollTrigger: {
+						trigger: "#section04",
+						toggleActions: "play none none none",
+						start: "top 80%",
+				}, duration: 1});
+				
+				gsap.from(".contact .top h2", {
+					opacity: 0,
+					delay: 0.2,
+					scrollTrigger: {
+						trigger: "#section04",
+						toggleActions: "play none none none",
+						start: "top 80%",
+				}, y: -100, duration: 1.2});
+
+				gsap.from(".contact .bot", {
+					opacity: 0,
+					delay: 0.2,
+					scrollTrigger: {
+						trigger: "#section04",
+						toggleActions: "play none none none",
+						start: "top 80%",
+				}, y: 100, duration: 1.2});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="skip">
+			<a href="">Hi 바로가기</a>
+			<a href="">It's me 바로가기</a>
+			<a href="">Skills 바로가기</a>
+			<a href="">Works 바로가기</a>
+			<a href="">Contact 바로가기</a>
+		</div>
+
+
+		<header id="header">
+			<div class="inner">
+				<h1 class="logo"><a href="#Hi"><img src="/images/common/logo.png" alt="로고"></a></h1>
+
+				<nav class="gnb_area">
+					<ul>
+						<li class="on"><a href="#Hi">Hi</a></li>
+						<li><a href="#It's_me">It's me</a></li>
+						<li><a href="#Skills">Skills</a></li>
+						<li><a href="#Works">Works</a></li>
+						<li><a href="#Contact">Contact</a></li>
+					</ul>
+				</nav>
+
+				<div class="ham_btn">
+					<button type="button">
+						<span class="line1"></span>
+						<span class="line2"></span>
+					</button>
+				</div>
+			</div>
+		</header><!-- #header -->
+
+
+		<main id="contents">
+			<section id="visual">
+				<div id="Hi" class="nav_tag">
+					<span class="hide">Hi</span>
+				</div>
+
+				<video loop autoplay muted playsinline preload="metadata">
+					<source src="/videos/visual.mp4" type="video/mp4"></source>
+				</video><!-- video -->
+
+				<div class="slogan">
+					<div class="inner">
+						<div class="top">
+							<h2>PORTFOLIO</h2>
+						</div>
+						<div class="bot">
+							<h3>web designer <em>Kim min ji</em></h3>
+							<div class="hash">
+								<span>#1998.02.21</span>
+								<span>#INFJ</span>
+								<span>#MZ</span>
+								<span>#PARTNERSHIP</span>
+								<span>#CREATIVE</span>
+								<span>#RESPONSIBILITY</span>
+								<span>#TRENDY</span>
+								<span>#AGENCY</span>
+								<span>#INHOUSE</span>
+							</div>
+						</div>
+					</div>
+				</div><!-- slogan -->
+
+				<div class="scroll">
+					<span class="txt">scroll down</span>
+					<span class="ico"><img src="/images/ico/wheel.png" alt="마우스 휠"></span>
+				</div><!-- scroll -->
+			</section><!-- #visual -->
+
+			<section id="section01">
+				<div id="It's_me" class="nav_tag">
+					<span class="hide">It's me</span>
+				</div>
+
+				<div class="inner">
+					<div class="img_box"><img src="/images/contents/me.jpg" alt="IT'S ME 이미지"></div>
+					<div class="txt_box">
+						<h2 class="sec_tt">IT'S ME</h2>
+						<p>
+							더 넓고 트렌디한 시각을 가진 디자이너가 되기 위한 새로운 시작을 준비하고 있습니다. <br>
+							새 도화지에 획을 그으면 멋진 작품이 되어가듯 <br>
+							한걸음씩 차곡차곡 쌓아올려, 저만의 색깔을 지닌 디자이너가 되겠습니다.							
+						</p>
+						<div class="info">
+							<div class="box">
+								<h3>Education</h3>
+								<ul>
+									<li>20.03 ~ 21.03 SBS아카데미컴퓨터아트학원(홍대점)</li>
+								</ul>
+							</div>
+							<div class="box">
+								<h3>Certification</h3>
+								<ul>
+									<li>18.03 컴퓨터활용능력 2급</li>
+									<li>18.08 MOS Master</li>
+									<li>20.12 웹디자인 기능사</li>
+									<li>20.12 컴퓨터 그래픽 운용기능사</li>
+								</ul>
+							</div>
+							<div class="box">
+								<h3>Career</h3>
+								<ul>
+									<li>21.04 ~ 23.08 웹에이전시 근무</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- #section01 -->
+
+			<section id="section02">
+				<div id="Skills" class="nav_tag">
+					<span class="hide">Skills</span>
+				</div>
+
+				<div class="top">
+					<div class="inner">
+						<div class="tit_box">
+							<h2 class="sec_tt">SKILLS</h2>
+							<p>
+								협력하며 완성도 있는 결과를 만들어내고 <br>
+								창의적인 사고로 시선을 끄는 <br>
+								책임감 있는 디자이너
+							</p>
+						</div>
+						<div class="circ_box">
+							<div class="circ">
+								<div class="wrap">
+									<p>Partnership</p>
+								</div>
+							</div>
+							<div class="circ">
+								<div class="wrap">
+									<p>Creative</p>
+								</div>
+							</div>
+							<div class="circ">
+								<div class="wrap">
+									<p>Responsibility</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- top -->
+
+				<div class="bot">
+					<div class="inner">
+						<div class="progress_wrap">
+							<div class="progress_bar bar1">
+								<div class="box">
+									<h3>Photoshop</h3>
+									<progress id="pts" min="0" max="100" value="90"></progress>
+								</div>
+							</div>
+							<div class="progress_bar bar2">
+								<div class="box">
+									<h3>Illustrator</h3>
+									<progress id="illu" min="0" max="100" value="80"></progress>
+								</div>
+							</div>
+							<div class="progress_bar bar3">
+								<div class="box">
+									<h3>Figma</h3>
+									<progress id="fig" min="0" max="100" value="80"></progress>
+								</div>
+							</div>
+							<div class="progress_bar bar4">
+								<div class="box">
+									<h3>HTML & CSS</h3>
+									<progress id="hc" min="0" max="100" value="70"></progress>
+								</div>
+							</div>
+							<div class="progress_bar bar4">
+								<div class="box">
+									<h3>What's the NEXT?</h3>
+									<progress id="what" min="0" max="100" value="90"></progress>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- #section02 -->
+
+			<section id="section03">
+				<div id="Works" class="nav_tag">
+					<span class="hide">Works</span>
+				</div>
+
+				<div class="inner">
+					<h2 class="sec_tt">WORKS</h2>
+
+					<div class="work_list">
+						<div class="work"><a href="/images/contents/sub01.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work01.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>채정_정직유부</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub02.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work02.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>페이브커피</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub03.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work03.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>한국직무능력평가소_Select AI</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub04.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work04.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>비트포비아</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub05.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work05.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>태백산생태마을협동조합 </h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub06.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work06.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>가나안근로복지관</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub07.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work07.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>쇼핑몰_JamJam</h3>
+							</div>
+						</a></div><!-- work -->
+						<div class="work"><a href="/images/contents/sub08.jpg">
+							<div class="img_box">
+								<span class="deco1"></span>
+								<span class="deco2"></span>
+								<div class="wrap"><img src="/images/contents/work08.jpg" alt="작업물 이미지"></div>
+							</div>
+							<div class="txt_box">
+								<h3>쇼핑몰_pinktage</h3>
+							</div>
+						</a></div><!-- work -->
+					</div><!-- work_list -->
+				</div>
+			</section><!-- #section03 -->
+
+			<section id="section04">
+				<div id="Contact" class="nav_tag">
+					<span class="hide">Contact</span>
+				</div>
+
+				<div class="inner">
+					<div class="contact">
+						<div class="top">
+							<h2 class="sec_tt">CONTACT</h2>
+						</div>
+						<div class="bot">
+							<ul>
+								<li><a href="mailto:kimadam0221@naver.com" target="_blank">
+									<div class="wrap">
+										<span class="ico"><img src="/images/ico/mail.png" alt="메일 아이콘"></span>
+										<span class="txt">kimadam0221@naver.com</span>
+									</div>
+								</a></li>
+								<li><a href="" target="_blank">
+									<div class="wrap">
+										<span class="ico"><img src="/images/ico/kakao.png" alt="메시지 아이콘"></span>
+										<span class="txt">kimadam0221 (kakao ID)</span>
+									</div>
+								</a></li>
+								<li><a href="https://Kimsmileji.github.com" target="_blank">
+									<div class="wrap">
+										<span class="ico"><img src="/images/ico/link.png" alt="웹 아이콘"></span>
+										<span class="txt">https://Kimsmileji.github.com</span>
+									</div>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section><!-- #section02 -->
+		</main><!-- #contents -->
+
+
+		<footer id="footer">
+			<div class="inner">
+				<p class="copy">Copyright 2023. kim minji. All rights reserved.</p>
+			</div>
+		</footer><!-- #footer -->
+	</body>
+</html>

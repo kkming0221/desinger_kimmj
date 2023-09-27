@@ -1,0 +1,217 @@
+/* font-family: 'Oswald', sans-serif; */
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-ExtraLight.eot');
+  src: url('../fonts/Oswald-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+      url('../fonts/Oswald-ExtraLight.woff') format('woff'),
+      url('../fonts/Oswald-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Light.eot');
+  src: url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-Light.woff2') format('woff2'),
+      url('../fonts/Oswald-Light.woff') format('woff'),
+      url('../fonts/Oswald-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Bold.eot');
+  src: url('../fonts/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-Bold.woff2') format('woff2'),
+      url('../fonts/Oswald-Bold.woff') format('woff'),
+      url('../fonts/Oswald-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Medium.eot');
+  src: url('../fonts/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-Medium.woff2') format('woff2'),
+      url('../fonts/Oswald-Medium.woff') format('woff'),
+      url('../fonts/Oswald-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.eot');
+  src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-Regular.woff2') format('woff2'),
+      url('../fonts/Oswald-Regular.woff') format('woff'),
+      url('../fonts/Oswald-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-SemiBold.eot');
+  src: url('../fonts/Oswald-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+      url('../fonts/Oswald-SemiBold.woff') format('woff'),
+      url('../fonts/Oswald-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font-family: "Pretendard", sans-serif; */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Thin.otf") format("opentype"),
+  url("../fonts/Pretendard-Thin.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Thin.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Light.otf") format("opentype"),
+  url("../fonts/Pretendard-Light.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Light.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Pretendard-ExtraLight.otf") format("opentype"),
+  url("../fonts/Pretendard-ExtraLight.subset.woff") format("woff"),
+  url("../fonts/Pretendard-ExtraLight.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Regular.otf") format("opentype"),
+  url("../fonts/Pretendard-Regular.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Regular.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Medium.otf") format("opentype"),
+  url("../fonts/Pretendard-Medium.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Medium.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Pretendard-SemiBold.otf") format("opentype"),
+  url("../fonts/Pretendard-SemiBold.subset.woff") format("woff"),
+  url("../fonts/Pretendard-SemiBold.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Bold.otf") format("opentype"),
+  url("../fonts/Pretendard-Bold.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Bold.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/Pretendard-ExtraBold.otf") format("opentype"),
+  url("../fonts/Pretendard-ExtraBold.subset.woff") format("woff"),
+  url("../fonts/Pretendard-ExtraBold.subset.subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/Pretendard-Black.eot?") format("eot");
+  src: url("../fonts/Pretendard-Black.eot?#iefix") format('embedded-opentype'),
+  url("../fonts/Pretendard-Black.otf") format("opentype"), url("./fonts/Pretendard-Black.subset.woff") format("woff"),
+  url("../fonts/Pretendard-Black.subset.subset.woff2") format("woff2");
+}
+
+
+/* skip navigation */
+#skip{}
+#skip a{display: block; position: absolute; top: -40px; left: 0; height: 40px; line-height: 40px; padding: 0 10px; font-size: 16px; color:#fff; background-color:#333; z-index:100;}
+#skip a:focus, 
+#skip a:active{top: 0;}
+
+/* 폰트 통일 */
+input, textarea, button{font-family: 'Oswald', sans-serif;}
+
+/* 기본 버튼 css */
+button{background-color: transparent; cursor: pointer; border: 0;}
+
+/* 숨김처리 */
+.hide{position: absolute; left: -9999px; top: -9999px; font-size: 0; line-height: 0; height: 0; overflow: hidden;}
+
+/* reset */
+*{margin: 0;	padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table{width:100%; border-collapse: collapse; border-spacing: 0; table-layout:fixed;}
+
+/* Link Style */
+a:link, a:visited, a:active, a:hover{text-decoration: none; color: #797979;}
